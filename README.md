@@ -1,3 +1,26 @@
+# Django Project
+
+This is a Django web application. Follow the instructions below to set up and run the project.
+
+---
+
+## How to Run This Django Project
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Apply migrations:
+   ```bash
+   python manage.py migrate
+   ```
+3. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+---
+
 # Django Field Types: String vs Slug
 
 ## What is Django?
@@ -133,4 +156,4 @@ This lets you access articles by their slug in the URL.
 - Django basics: models, fields, URLs
 - Difference between string and slug fields
 - How to use slugs for SEO and readable URLs
-- How Python optimizes code with
+- How Python optimizes code with `__pycache__`
