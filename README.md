@@ -1,6 +1,6 @@
 # Django Project
 
-This is a Django web application. Follow the instructions below to set up and run the project.
+This is a Django web application. Follow the instructions below to set up and run the project and again welcome to Django.
 
 ---
 
