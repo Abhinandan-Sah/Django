@@ -45,3 +45,6 @@ def user_id(request, userid):
         return HttpResponse(f'This is the user id view for user {userid}')
     except Exception as e:
         return HttpResponse(f'Error: {str(e)}')
+
+def handler404(request, exception):
+    return HttpResponse("<h1 style='color: red;'>404 Not Found</h1>")

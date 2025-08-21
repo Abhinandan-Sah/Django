@@ -6,6 +6,13 @@
     <title>This is template index.html</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+    </nav>
     <p>hi from template</p>
     <p>{{data}}</p>
     <ul>

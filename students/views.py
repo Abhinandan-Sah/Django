@@ -1,4 +1,6 @@
 from django.shortcuts import render, HttpResponse
+from django.urls import path
+from . import views
 
 def index(request):
     return HttpResponse("<p style='color:red;'>This is the index page of student.</p>")
@@ -21,4 +23,8 @@ def file(request):
     b= ["Abhinav", "Abhishek", "Amit", "Ankit", "Anshika"]
     return render(request, "index.html", {"data": a, "names": b})
 
+def about(request):
+    return render(request, "about.html")
 
+def contact(request):
+    return render(request, "contact.html")

@@ -17,3 +17,5 @@ urlpatterns = [
     re_path(r'^articles/(?P<year>[0-9]{4})/$', views.article_year, name='article-year'),
     re_path(r'^userid/(?P<userid>[0-9]+)/$', views.user_id, name='user-id')
 ]
+
+handler404= "courses.views.handler404"
